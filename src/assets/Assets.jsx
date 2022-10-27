@@ -35,7 +35,7 @@ const Assets = () => {
         {/* {data ? (div yazacaksın) : "" }  */}
         {data ? (
           <div className="flex flex-col justify-center items-center flex-col w-[30rem] h-[30rem] mx-auto text-center bg-blue-300 p-4 " >
-            <img  className="rounded-full w-[9rem]" src={data.picture.large} alt="" /> 
+            <img  className="rounded-full w-[9rem]" src={data.picture.large} alt="" /> {"  "}   <img  className="rounded-full w-[9rem]" src={data.picture.large} alt="" /> 
             <p className="text-2xl"> <MdDriveFileRenameOutline/> {"   "}
               {data.name.title} {data.name.first} {data.name.last}{" "}
             </p>
